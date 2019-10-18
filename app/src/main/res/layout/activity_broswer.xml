@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BroswerActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_web"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/webUri"
+                android:imeOptions="actionGo"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:hint="WebAddress"
+                android:inputType="textNoSuggestions"
+                android:textColorHint="@color/grey"
+                android:textSize="13dp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/appbar"
+        android:layout_above="@+id/bnve"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+    android:id="@+id/bnve"
+    app:itemIconTint="?attr/item_tint"
+    android:layout_alignParentBottom="true"
+    android:background="?attr/toolbar_color"
+    app:elevation="10dp"
+    android:elevation="10dp"
+    app:menu="@menu/bottom_menu"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"/>
+</RelativeLayout>
+

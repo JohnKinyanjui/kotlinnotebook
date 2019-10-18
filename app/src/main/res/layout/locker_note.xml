@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="@color/grey"
+        tools:context=".noteui.Locker_note">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/locker_tool"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <ListView
+        android:id="@+id/lock_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locker_tool" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/locker_Add"
+        android:layout_width="wrap_content"
+        app:fabColor="@color/white"
+        app:fabIconColor="@color/black"
+        android:src="@drawable/add"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

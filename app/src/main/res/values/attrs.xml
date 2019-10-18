@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="app_bar_color" format="color"/>
+    <attr name="cardbackground" format="color"/>
+    <attr name="toolbar_color" format="color"/>
+    <attr name="listview_color" format="color"/>
+        <attr name="ticket" format="color"/>
+        <attr name="title_color" format="color"/>
+        <attr name="des_color" format="color"/>
+        <attr name="item_tint" format="color"/>
+        <attr name="nav_tint" format="color"/>
+    </declare-styleable>
+</resources>

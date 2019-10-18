@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".reset">
+    <TextView
+        android:layout_margin="5dp"
+        android:text="Type your reset code for pattern screen (make sure you won't forget it)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="Reset Code"
+        android:inputType="textNoSuggestions"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/cool_rectangle"
+            android:text="Save code"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/cool_rectangle"
+            android:text="Reset Code"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

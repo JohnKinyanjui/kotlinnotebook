@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/navigation_back"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        />
+    <item android:title="Item"
+        android:id="@+id/navigation_forward"
+        android:icon="@drawable/forward"/>
+
+    <item android:title="Item"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"/>
+
+    <item android:title="Item"
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/search"/>
+
+    <item android:title="Item"
+        android:id="@+id/stop"
+        android:icon="@drawable/stop"/>
+</menu>

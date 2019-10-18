@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "169124457394",
+    "firebase_url": "https://tecra-2f37e.firebaseio.com",
+    "project_id": "tecra-2f37e",
+    "storage_bucket": "tecra-2f37e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169124457394:android:d10b93d95154b5b2",
+        "android_client_info": {
+          "package_name": "com.tecra.afriklik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169124457394-nnsdka59eoormpmr64p4jp2tbdarr7q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tecra.afriklik",
+            "certificate_hash": "b7eae9fd248da5a031ceee18f7963501f3b3d9d0"
+          }
+        },
+        {
+          "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9GVROqpPsFQKBgrML4XEiCa_MhGXY1gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169124457394:android:099d3c325d53a0bb",
+        "android_client_info": {
+          "package_name": "com.tecra.androidlik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9GVROqpPsFQKBgrML4XEiCa_MhGXY1gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4902549008382464~7531774071"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169124457394:android:21a9baa5400bfb90",
+        "android_client_info": {
+          "package_name": "com.tecra.cecrabroswer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9GVROqpPsFQKBgrML4XEiCa_MhGXY1gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169124457394:android:51ed540f133ff27b",
+        "android_client_info": {
+          "package_name": "com.tecra.swipebroswer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9GVROqpPsFQKBgrML4XEiCa_MhGXY1gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4902549008382464~1669845756"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169124457394:android:9292802d716336e0a5d2ab",
+        "android_client_info": {
+          "package_name": "com.tecra.swipeebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9GVROqpPsFQKBgrML4XEiCa_MhGXY1gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169124457394-4vs8j8r74qccdg0b8cqbn1b7kji3955p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4902549008382464~4099747136"
+    }
+  ],
+  "configuration_version": "1"
+}

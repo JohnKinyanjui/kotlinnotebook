@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tecra.swipeebook">
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="Swipe Notebook"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label">
+        <activity android:name=".reset"></activity>
+        <activity
+            android:name=".Ads"
+            android:label="@string/title_activity_ads" /> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".noteui.PrivateNotes"
+            android:theme="@style/PrivateAppTheme" />
+        <activity
+            android:name=".noteui.AddPrivateNotes"
+            android:theme="@style/PrivateAppTheme" />
+        <activity
+            android:name=".noteui.add_locker"
+            android:theme="@style/PrivateAppTheme" />
+        <activity
+            android:name=".noteui.Locker_note"
+            android:label="Private Notebook"
+            android:theme="@style/PrivateAppTheme" />
+        <activity android:name=".securityui.PatternScreen" />
+        <activity android:name=".securityui.PatternActivity" />
+        <activity
+            android:name=".Settings.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".activity.BroswerActivity" />
+        <activity android:name=".noteui.AddNotes" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="Search for note" />
+        <activity android:name=".noteui.NoteActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4902549008382464~4099747136" />
+    </application>
+
+</manifest>

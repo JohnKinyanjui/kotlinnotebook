@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noteui.NoteActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/floating_search_view1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/private_toolbar"
+            android:background="@color/privatecolorPrimaryDark"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ListView
+        android:layout_below="@id/floating_search_view1"
+        android:id="@+id/private_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/private_add_notes"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

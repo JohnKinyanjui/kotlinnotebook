@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:orientation="vertical">
+    <LinearLayout
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/black"
+                app:cardMaxElevation="10dp"
+                android:layout_margin="2dp"
+                app:cardCornerRadius="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:background="@color/black"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                        android:paddingLeft="10pt"
+                        android:id="@+id/tvTitle1"
+                    android:fontFamily="sans-serif-condensed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Notes"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                <TextView
+                    android:fontFamily="sans-serif-condensed-light"
+                        android:paddingLeft="10pt"
+                    android:visibility="gone"
+                        android:id="@+id/description"
+                    android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desc"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <ImageView android:layout_marginRight="10dp"
+                        android:id="@+id/ivEdit1"
+                        android:layout_width="40pt"
+                        android:layout_height="20pt"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/adds"/>
+
+                    <ImageView
+                        android:id="@+id/ivDelete1"
+                        android:layout_width="40pt"
+                        android:layout_height="20pt"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/delete"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

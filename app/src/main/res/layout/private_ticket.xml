@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+
+            app:cardMaxElevation="10dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:paddingLeft="10pt"
+                    android:id="@+id/PtvTitle"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:paddingLeft="10pt"
+                    android:id="@+id/PtvDes"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pattern Generator  Create any pattern of your own - tiles, texture, skin, wallpaper, comic effect, website background and more.  Change any artwork of pattern you found into different flavors and call them your own."/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <ImageView android:layout_marginRight="10dp"
+                        android:id="@+id/PivEdit"
+                        android:layout_width="40pt"
+                        android:layout_height="20pt"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/adds"/>
+
+                    <ImageView
+                        android:id="@+id/delete"
+                        android:layout_width="40pt"
+                        android:layout_height="20pt"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/delete"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

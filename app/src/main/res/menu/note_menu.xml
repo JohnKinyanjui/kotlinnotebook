@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionLayout="@layout/search_view"
+        android:visible="true"
+        android:icon="@drawable/search_blue"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        android:iconTint="@color/colorPrimaryDark"
+        app:actionViewClass="android.widget.SearchView"
+        tools:targetApi="o" />
+</menu>
